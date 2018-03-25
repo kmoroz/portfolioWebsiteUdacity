@@ -1,0 +1,72 @@
+
+html{
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: 4%;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center{
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.max-width{
+	width: 100%;
+}
+
+.height-90{
+	height: 90%;
+}
+
+.height-10{
+	height: 10%;
+}
+
+.navigation-item{
+	height: 100%;
+	width: calc(100% / 3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.6em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+.width-50{
+	width: 50%;
+}
