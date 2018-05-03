@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 
 html{
 	width: 100%;
@@ -8,7 +12,10 @@ html{
 body{
 	width: 100%;
 	height: 100%;
-	padding: 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 #container{
@@ -70,3 +77,62 @@ body{
 .width-50{
 	width: 50%;
 }
+
+@media screen and (max-width: 500px){
+	
+	#container{
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.navigation-item{
+		font-size: 1.8em;
+	}
+
+}
+
+@media screen and (min-width: 500px){
+	#head_container{
+		width: 50%;
+	}
+
+	#container{
+		width: 60%;
+		height: 60%;
+	}
+
+
+	.navigation-item{
+		font-size: 1.8em;
+}
+
+@media screen and (min-width: 600px){
+	#head_container{
+		width: 40%;
+	}
+
+	#container{
+		width: 60%;
+		height: 60%;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+	#head_container{
+		width: 28%;
+	}
+
+	#container{
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media screen and (min-width: 1440px){
+	#head_container{
+		width: 20%;
+	}
+}
+
+
