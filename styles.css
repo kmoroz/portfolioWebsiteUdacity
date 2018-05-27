@@ -103,18 +103,6 @@ body{
 	align-self: flex-end;
 }
 
-.orange{
-	background-color: orange;
-}
-
-.pink{
-	background-color: pink;
-}
-
-.blue{
-	background-color: blue;
-}
-
 .max-width{
 	width: 100%;
 }
