@@ -44,7 +44,7 @@ body{
 }
 
 #text_work{
-	width: 40%; 
+	width: 80%; 
 	height: 50%;
 	font-family: arial; 
 	display: none; 
@@ -154,6 +154,10 @@ body{
 		font-size: 1.8em;
 	}
 
+	#text_work{
+		width: 90%;
+	}
+
 }
 
 @media screen and (min-width: 500px){
@@ -181,6 +185,8 @@ body{
 		width: 60%;
 		height: 60%;
 	}
+
+
 }
 
 
@@ -192,6 +198,10 @@ body{
 	#container{
 		width: 60%;
 		height: 60%;
+	}
+
+		#text_work{
+		width: 60%;
 	}
 }
 
