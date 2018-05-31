@@ -20,7 +20,13 @@ body{
 	justify-content: center;
 }
 
-.stalks, .hat, .face, .seeds, .lips, .eyebrows, .eyes{
+.stalks, 
+.hat, 
+.face, 
+.seeds, 
+.lips, 
+.eyebrows, 
+.eyes{
 	transition: fill 0.4s;
 }
 
